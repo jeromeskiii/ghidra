@@ -38,7 +38,9 @@ Attempted:
 ./gradlew unitTestReport --parallel --no-daemon --console=plain
 ```
 
-Output was captured at `/tmp/ghidra-unitTestReport-20261012020518.log`. It
+Output was captured at `/tmp/ghidra-unitTestReport-20261012020518.log` (now
+archived, gzip-compressed, at
+`plans/archive/2026-10-12/ghidra-unitTestReport-20261012020518.log.gz`). It
 ended while test tasks were still printing output; **there is no final
 `BUILD SUCCESSFUL` or `BUILD FAILED` summary**. Do not treat this as a completed
 suite. The available fresh XML reports (timestamps 02:05:35–02:08:21 PDT) cover
